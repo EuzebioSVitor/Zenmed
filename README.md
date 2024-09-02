@@ -28,4 +28,28 @@ Refinar o web site;
 Publicar o Web site na internet;
 
 ### 30/09/2024
-Entrega e Apresentação Final do Website
+Entrega e Apresentação Final do Website;
+
+# Conteudos Pesquisados
+Principais tecnologias envolvendo a saude;
+Principais impactos da tecnologia a saude;
+Quais os principais meios tecnologicos para manter a saude e ter longevidade;
+Projetos em andamento envolvendo saude e futuro;
+
+Principais tecnologias presentes no Brasil envolvendo a saude;
+Principais impactos da tecnologia a saude no Brasil;
+Projetos brasileiros em andamento envolvendo saude e futuro;
+
+## Conteudos das Paginas
+
+### Pagina de Cadastro
+inputs para cadastro:
+<input type="text" placeholder="Nome">
+<input type="email" placeholder="E-mail">
+<input type="submit" value="Cadastre-Se!">
+
+links para outras paginas:
+<a href="#"><li>Inicio</li></a> <!-- Nesta pagina tera os destaques da semana-->
+<a href="#"><li>Artigos</li></a> <!-- Nesta pagina tera os artigos pesquisados-->
+<a href="#"><li>Sobre Nós</li></a> <!-- Nesta pagina tera informações sobre a empresa ficticia-->
+<a href="#"><li>Contatos</li></a> <!-- Nesta pagina tera nossos emails academicos-->
