@@ -54,7 +54,7 @@ links para outras paginas:
 <a href="#"><li>Sobre Nós</li></a> <!-- Nesta pagina tera informações sobre a empresa ficticia-->
 <a href="#"><li>Contatos</li></a> <!-- Nesta pagina tera nossos emails academicos-->
 
-### Pagina Inicio
+### Pagina Inicial
 <article id="destaque1"></article>
 <article id="destaque2"></article>
 <article id="destaque3"></article>
@@ -71,10 +71,28 @@ links para outras paginas:
 <a href="#main">Principais Artigos do Brasil</a> <!-- Tera # Conteudos pesquisados envolvendo o Brasil-->
 <a href="#mundial">Saude e Tecnologia no Mundo</a> <!-- Tera # Conteudos pesquisados restantes-->
 
+<a href="#"><li>Inicio</li></a> <!-- Nesta pagina tera os destaques da semana-->
+<a href="#"><li>Artigos</li></a> <!-- Nesta pagina tera os artigos pesquisados-->
+<a href="#"><li>Sobre Nós</li></a> <!-- Nesta pagina tera informações sobre a empresa ficticia-->
+<a href="#"><li>Contatos</li></a> <!-- Nesta pagina ancora tera nossos emails academicos-->
+
 ### Pagina Sobre Nós
 
 <a href="#enterprise">Nossa Empresa</a> <!-- Tera informaçoes da empresa como: data de fundação, etc...-->
 <a href="#objective">Objetivos</a> <!-- Tera informações envolvendo os objetivos-->
 
+<a href="#"><li>Inicio</li></a> <!-- Nesta pagina tera os destaques da semana-->
+<a href="#"><li>Artigos</li></a> <!-- Nesta pagina tera os artigos pesquisados-->
+<a href="#"><li>Sobre Nós</li></a> <!-- Nesta pagina tera informações sobre a empresa ficticia-->
+<a href="#"><li>Contatos</li></a> <!-- Nesta pagina ancora tera nossos emails academicos-->
+
 ### Pagina Ancora Contatos
 
+<a href="#Contact">Contatos</a>
+<a href="#Commercial Email">Emails Comerciais</a>
+<a href="#Github">Repositório Github</a>
+
+<a href="#"><li>Inicio</li></a> <!-- Nesta pagina tera os destaques da semana-->
+<a href="#"><li>Artigos</li></a> <!-- Nesta pagina tera os artigos pesquisados-->
+<a href="#"><li>Sobre Nós</li></a> <!-- Nesta pagina tera informações sobre a empresa ficticia-->
+<a href="#"><li>Contatos</li></a> <!-- Nesta pagina ancora tera nossos emails academicos-->
