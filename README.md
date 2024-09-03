@@ -53,3 +53,28 @@ links para outras paginas:
 <a href="#"><li>Artigos</li></a> <!-- Nesta pagina tera os artigos pesquisados-->
 <a href="#"><li>Sobre Nós</li></a> <!-- Nesta pagina tera informações sobre a empresa ficticia-->
 <a href="#"><li>Contatos</li></a> <!-- Nesta pagina tera nossos emails academicos-->
+
+### Pagina Inicio
+<article id="destaque1"></article>
+<article id="destaque2"></article>
+<article id="destaque3"></article>
+<article id="destaque4"></article>
+
+<a href="#"><li>Inicio</li></a> <!-- Nesta pagina tera os destaques da semana-->
+<a href="#"><li>Artigos</li></a> <!-- Nesta pagina tera os artigos pesquisados-->
+<a href="#"><li>Sobre Nós</li></a> <!-- Nesta pagina tera informações sobre a empresa ficticia-->
+<a href="#"><li>Contatos</li></a> <!-- Nesta pagina ancora tera nossos emails academicos-->
+
+### Pagina Artigos
+
+<a href="#category">Por Categorias</a> <!-- Tera categorias 7 categorias conforme # conteudos pesquisados-->
+<a href="#main">Principais Artigos do Brasil</a> <!-- Tera # Conteudos pesquisados envolvendo o Brasil-->
+<a href="#mundial">Saude e Tecnologia no Mundo</a> <!-- Tera # Conteudos pesquisados restantes-->
+
+### Pagina Sobre Nós
+
+<a href="#enterprise">Nossa Empresa</a> <!-- Tera informaçoes da empresa como: data de fundação, etc...-->
+<a href="#objective">Objetivos</a> <!-- Tera informações envolvendo os objetivos-->
+
+### Pagina Ancora Contatos
+
