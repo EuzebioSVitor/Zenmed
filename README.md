@@ -1,4 +1,4 @@
-# Saude E Bem Estar
+# ZenMed
 Repositório para Desenvolvimento de WebSite para Matéria Programação Web
 
 ## Alunos: 
