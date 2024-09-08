@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+}
+@font-face {
+    font-family: 'roxborough';
+    src: url('fonts/Roxborough\ CF.ttf') format('truetype');
+}
+main{
+    z-index: -5;
+    height: 100vh;
+    background-image:linear-gradient(to right, rgb(23, 170, 60), rgb(4, 35, 43));
+    color: white;
+}
+.spc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav{
+    border-bottom: 2px solid white;
+    width: 50vw;
+    ul,li{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0;
+        font-weight: 600;
+        margin-bottom: 3px;
+        font-family: 'open sans';
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    a:hover{
+        color: rgb(233, 227, 227);
+    }
+}
+.cadastro{
+    position: relative;
+    top: 120px;
+    z-index: 1;
+    width: 50vw;
+    margin-top: 100px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    h2{
+        z-index: 1;
+        font-size: 57px;
+        margin: 0;
+        font-weight: 500;
+        font-family: 'roxborough';
+    }
+    h3{
+        z-index: 1;
+        font-size: 40px;
+        margin: 0;
+        text-align: center;
+        font-family: 'red hat display';
+    }
+    p{
+        z-index: 1;
+        padding-left: 10%;
+        padding-right: 10%;
+        text-align: center;
+        text-justify:distribute;
+        font-size: 20;
+        font-weight: 100;
+        font-family:'Open Sans',sans-serif;
+    }
+    a{
+        margin-top: 40px;
+        z-index: 1;
+        display: inline-block;
+        background-color: white;
+        color:rgb(23, 170, 60);
+        border-radius: 20px;
+        padding: 15px;
+        text-decoration: none;
+        font-size: large;
+        transition: background-color 0.9s ease, transform 0.9s ease;
+    }
+    a:hover{
+        background-color: rgb(233, 227, 227);
+        transform: scale(1.1);
+    }
+}
+.circle{
+    z-index: 0;
+    position: absolute;
+    height: 620px;
+    width: 620px;
+    left: 40px;
+    top: -170px;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, rgb(4, 35, 43), rgb(23, 170, 60));
+}
+.login{
+    padding: 10px;
+    position: absolute;
+    right: 50px;
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    width: 15vw;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(16, 131, 45);
+    top: 250px;
+    border-radius: 20px;
+    h3{
+        font-family:'roboto', sans-serif;
+        font-size: 35px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 2px;
+    }
+    input{
+        width: 80%;
+        height: 5vh;
+        border-radius: 20px;
+        outline: none;
+        border: 0px;
+    }
+    input::placeholder{
+        font-family: 'roboto mono';
+        color: rgb(23, 170, 60);
+        text-align: center;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    input[type=button]{
+        background-color: black;
+        color: rgb(23, 170, 60);
+        font-family: 'roboto mono';
+        font-size: 15px;
+    }
+}
