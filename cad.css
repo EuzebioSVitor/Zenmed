@@ -1,16 +1,21 @@
-body{
-    margin: 0;
-    background-image:linear-gradient(to right, rgb(23, 170, 60), rgb(4, 35, 43));
-}
 @font-face {
     font-family: 'roxborough';
     src: url('fonts/Roxborough\ CF.ttf') format('truetype');
 }
-main{
-    z-index: -5;
-    height: 100vh;
-    background-image:linear-gradient(to right, rgb(23, 170, 60), rgb(4, 35, 43));
+html{
+    scroll-behavior:smooth;
+    height: 100%;
+}
+body{
+    margin: 0;
+    width: 100vw;
+    overflow-x: hidden;
+    background-image:linear-gradient(to top, rgb(23, 170, 60), rgb(4, 35, 43));
+    background-size: cover;
     color: white;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .spc{
     display: flex;
@@ -19,12 +24,12 @@ main{
 }
 nav{
     border-bottom: 2px solid white;
-    width: 75vw;
-    font-size: 1.3rem;
+    width: 90vw;
+    font-size: 1.2rem;
     ul,li{
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-around;
         padding: 0;
         font-weight: 600;
         margin-bottom: 3px;
@@ -40,11 +45,11 @@ nav{
 }
 .cadastro{
     position: relative;
-    top: 120px;
+    top: 0;
     z-index: 1;
-    width: 50vw;
-    margin-top: 100px;
-    margin-left: 50px;
+    width: 90vw;
+    margin-top: 4vh;
+    margin-left: 4vw;
     display: flex;
     flex-direction: column;
     align-items:center;
@@ -74,7 +79,7 @@ nav{
         font-family:'Open Sans',sans-serif;
     }
     a{
-        margin-top: 40px;
+        margin-top: 2vh;
         z-index: 1;
         display: inline-block;
         background-color: white;
@@ -93,8 +98,8 @@ nav{
 .circle{
     z-index: 0;
     position: absolute;
-    height: 620px;
-    width: 620px;
+    height: 350px;
+    width: 350px;
     left: 50%;
     right: 50%;
     bottom: 50%;
@@ -105,17 +110,20 @@ nav{
 }
 .login{
     padding: 10px;
-    position: absolute;
-    right: 50px;
+    position: relative;
     display: flex;
     flex-direction: column;
     height: 40vh;
-    width: 20vw;
+    width: 60vw;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
     justify-content: space-around;
     align-items: center;
     background-color: rgb(16, 131, 45);
-    top: 250px;
+    top: 25vh;
     border-radius: 20px;
+    margin-bottom: 5vh;
     h3{
         font-family:'roboto', sans-serif;
         font-size: 2.5rem;
@@ -135,7 +143,7 @@ nav{
         font-family: 'roboto mono';
         color: rgb(23, 170, 60);
         text-align: center;
-        font-size: 1.4rem;
+        font-size: 1.3rem;
         font-weight: 500;
     }
     input[type=button]{
@@ -149,261 +157,70 @@ nav{
         transform: scale(1.1);
     }
 }
-@media screen and (max-width: 768px) {
-    main{
-        max-width: 100vw;
-        overflow-x: hidden;
+@media (min-width: 768px) and (max-width: 1439px){
+    body{
+        background-image:linear-gradient(to right, rgb(23, 170, 60), rgb(4, 35, 43));
     }
     nav{
-        width: 80vw;
-        justify-content:space-between;
-        font-size: 1rem;
+        font-size: 1.4rem;
     }
     .cadastro{
-        position: relative;
-        top: 20px;
-        z-index: 1;
-        width: 80vw;
-        margin-top: 30px;
-        margin-left: 30px;
-        display: flex;
-        flex-direction: column;
-        align-items:center;
-        h2{
-            z-index: 1;
-            font-size: 3rem;
-            margin: 0;
-            font-weight: 500;
-            font-family: 'roxborough';
-            text-align: center;
-        }
-        h3{
-            z-index: 1;
-            font-size: 2rem;
-            margin: 0;
-            text-align: center;
-            font-family: 'red hat display';
-        }
-        p{
-            z-index: 1;
-            padding-left: 10%;
-            padding-right: 10%;
-            text-align: center;
-            text-justify:distribute;
-            font-size: 1.1rem;
-            font-weight: 100;
-            font-family:'Open Sans',sans-serif;
-        }
-        a{
-            margin-top: 40px;
-            z-index: 1;
-            display: inline-block;
-            background-color: white;
-            color:rgb(23, 170, 60);
-            border-radius: 20px;
-            padding: 15px;
-            text-decoration: none;
-            font-size: large;
-            transition: background-color 0.9s ease, transform 0.9s ease;
-        }
-        a:hover{
-            background-color: rgb(233, 227, 227);
-            transform: scale(1.1);
-        }
-    }
-    .circle{
-        z-index: 0;
-        position: absolute;
-        height: 300px;
-        width: 300px;
-        left: 50%;
-        right: 50%;
-        bottom: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-        border-radius: 50%;
-        background-image: linear-gradient(to right, rgb(4, 35, 43), rgb(23, 170, 60));
-    }
-    .login{
-        padding: 10px;
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        height: 40vh;
-        width: 40vw;
-        justify-content: space-around;
-        align-items: center;
-        background-color: rgb(16, 131, 45);
-        top: 850px;
-        left: 50%;
-        right: 50%;
-        transform:translate(-50%, -50%);
-        border-radius: 20px;
-        h3{
-            font-family:'roboto', sans-serif;
-            font-size: 35px;
-            text-align: center;
-            margin-top: 10px;
-            margin-bottom: 2px;
-        }
-        input{
-            width: 80%;
-            height: 5vh;
-            border-radius: 20px;
-            outline: none;
-            border: 0px;
-            text-align: center;
-        }
-        input::placeholder{
-            font-family: 'roboto mono';
-            color: rgb(23, 170, 60);
-            text-align: center;
-            font-size: 15px;
-            font-weight: 500;
-        }
-        input[type=button]{
-            background-color: black;
-            color: rgb(23, 170, 60);
-            font-family: 'roboto mono';
-            font-size: 15px;
-            transition: transform 0.9s ease;
-    }
-    input[type = button]:hover{
-        transform: scale(1.1);
-    }
-    }
-  }
-@media screen and (min-width: 769px) and (max-width: 1200px){
-    nav{
-        border-bottom: 2px solid white;
-        width: 80vw;
-        font-size: 2rem;
-        ul,li{
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            padding: 0;
-            font-weight: 600;
-            margin-bottom: 3px;
-            font-family: 'open sans';
-        }
-        a{
-            text-decoration: none;
-            color: white;
-        }
-        a:hover{
-            color: rgb(233, 227, 227);
-        }
-    }
-    .cadastro{
-        text-align: center;
-        position: relative;
-        top: 120px;
-        z-index: 1;
         width: 50vw;
-        margin-top: 100px;
-        margin-left: 50px;
-        display: flex;
-        flex-direction: column;
-        align-items:center;
-        h2{
-            z-index: 1;
-            font-size: 4rem;
-            margin: 0;
-            font-weight: 500;
-            font-family: 'roxborough';
-        }
+        margin-top: 15vh;
+        margin-left: 4vw;
         h3{
-            z-index: 1;
-            font-size: 2.8rem;
-            margin: 0;
-            text-align: center;
-            font-family: 'red hat display';
+            font-size: 2.5rem;
         }
         p{
-            z-index: 1;
-            padding-left: 10%;
-            padding-right: 10%;
-            text-align: center;
-            text-justify:distribute;
             font-size: 1.2rem;
-            font-weight: 100;
-            font-family:'Open Sans',sans-serif;
         }
-        a{
-            margin-top: 40px;
-            z-index: 1;
-            display: inline-block;
-            background-color: white;
-            color:rgb(23, 170, 60);
-            border-radius: 20px;
-            padding: 15px;
-            text-decoration: none;
-            font-size: 1.3rem;
-            transition: background-color 0.9s ease, transform 0.9s ease;
-        }
-        a:hover{
-            background-color: rgb(233, 227, 227);
-            transform: scale(1.1);
-        }
-    }
     .circle{
-        z-index: 0;
-        position: absolute;
-        height: 450px;
-        width: 450px;
-        left: 50%;
-        right: 50%;
-        bottom: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-        border-radius: 50%;
-        background-image: linear-gradient(to right, rgb(4, 35, 43), rgb(23, 170, 60));
+        width: 480px;
+        height: 480px;
+        }
     }
     .login{
-        padding: 10px;
         position: absolute;
-        right: 50px;
-        display: flex;
-        flex-direction: column;
         height: 40vh;
-        width: 30vw;
-        justify-content: space-around;
-        align-items: center;
-        background-color: rgb(16, 131, 45);
-        top: 250px;
-        border-radius: 20px;
+        width: 25vw;
+        left: 80vw;
+        top: 50vh;
+    }
+}
+@media (min-width: 1440px){
+    body{
+        background-image:linear-gradient(to right, rgb(23, 170, 60), rgb(4, 35, 43));
+    }
+    nav{
+        font-size: 1.6rem;
+    }
+    .cadastro{
+        width: 50vw;
+        margin-top: 25vh;
+        margin-left: 4vw;
+        h2{
+            font-size: 4rem;
+        }
         h3{
-            font-family:'roboto', sans-serif;
-            font-size: 35px;
-            text-align: center;
-            margin-top: 10px;
-            margin-bottom: 2px;
+            font-size: 3rem;
         }
-        input{
-            width: 80%;
-            height: 5vh;
-            border-radius: 20px;
-            outline: none;
-            border: 0px;
-            text-align: center;
+        p{
+            font-size: 1.5rem;
         }
-        input::placeholder{
-            font-family: 'roboto mono';
-            color: rgb(23, 170, 60);
-            text-align: center;
-            font-size: 1.3rem;
-            font-weight: 500;
-        }
-        input[type=button]{
-            background-color: black;
-            color: rgb(23, 170, 60);
-            font-family: 'roboto mono';
-            font-size: 1.3rem;
-            transition: transform 0.9s ease;
-        }
-        input[type = button]:hover{
-            transform: scale(1.1);
+    .circle{
+        width: 600px;
+        height: 600px;
         }
     }
-  }
+    .login{
+        position: absolute;
+        height: 40vh;
+        width: 25vw;
+        left: 80vw;
+        top: 50vh;
+
+        input::placeholder{
+            font-size: 1.6rem;
+        }
+    }
+}
