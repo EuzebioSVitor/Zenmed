@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'roxborough';
+    src: url('fonts/Roxborough\ CF.ttf') format('truetype');
+}
+html{
+    scroll-behavior:smooth;
+    height: 100%;
+}
+body{
+    margin: 0;
+    width: 100vw;
+    overflow-x: hidden;
+    background-image:linear-gradient(to top, rgb(23, 170, 60), rgb(4, 35, 43));
+    background-size: cover;
+    color: white;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.spc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav{
+    border-bottom: 2px solid white;
+    width: 90vw;
+    font-size: 1.2rem;
+    ul,li{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 0;
+        font-weight: 600;
+        margin-bottom: 3px;
+        font-family: 'open sans';
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    a:hover{
+        color: rgb(233, 227, 227);
+    }
+}
+.container{
+    border: 1px solid black;
+    margin-bottom: 5vh;
+    height: 80vh;
+    width: 80vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    top: 50vh;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items:center;
+    row-gap: 5vh;
+}
+.card{
+    background-image:linear-gradient(to bottom, rgb(23, 170, 60), rgb(4, 35, 43));
+    border-radius: 20px;
+    height: 50%;
+    width: 40%;
+}
+.card_content{
+    border: 1px solid black;
+    height: 100%;
+    display: flex;
+    align-items:self-end;
+    justify-content: center;
+    h2{
+        border: 1px solid black;
+        display: inline-block;
+        position: relative;
+        font-weight: 800;
+        font-family: 'red hat display';
+        width: 100%;
+        height: 20%;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+}
