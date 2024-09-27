@@ -48,7 +48,7 @@ nav{
     top: 0;
     z-index: 1;
     width: 90vw;
-    margin-top: 4vh;
+    margin-top: 12vh;
     margin-left: 4vw;
     display: flex;
     flex-direction: column;
@@ -121,7 +121,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     background-color: rgb(16, 131, 45);
-    top: 25vh;
+    top: 40vh;
     border-radius: 20px;
     margin-bottom: 5vh;
     h3{
@@ -166,7 +166,7 @@ nav{
     }
     .cadastro{
         width: 50vw;
-        margin-top: 15vh;
+        margin-top: 30vh;
         margin-left: 4vw;
         h3{
             font-size: 2.5rem;
