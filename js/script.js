@@ -8,7 +8,6 @@ cards.forEach(card => {
     const content = cardContent[cardTitle];
 
     popupContent.innerHTML = `
-      <h2>${cardTitle}</h2>
       <p>${content}</p>
       <div class="center">
       <button onclick="fecharpopup()" class="popup_close">X</button>

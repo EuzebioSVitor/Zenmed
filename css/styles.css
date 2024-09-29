@@ -57,7 +57,7 @@ header{
 .cont-btn{
     display: flex;
     width: 50vw;
-    height: 15vh;
+    height: 150px;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
