@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'roxborough';
-    src: url('fonts/Roxborough\ CF.ttf') format('truetype');
+    src: url('/fonts/Roxborough\ CF.ttf') format('truetype');
 }
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(20px); }
@@ -34,6 +34,10 @@ header{
     height: 100vh;
     color: white;
     text-align: center;
+  }
+  .empresa{
+    font-family: 'roxborough';
+    width: 100%;
   }
   .hero-content {
     position: relative;
