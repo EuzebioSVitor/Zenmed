@@ -2,53 +2,12 @@
     font-family: 'roxborough';
     src: url('fonts/Roxborough\ CF.ttf') format('truetype');
 }
-@keyframes fadeIn {
+@keyframes fadeIn2 {
     from { opacity: 0;}
     to { opacity: 1; }
   }
-html{
-    scroll-behavior:smooth;
-    height: 100%;
-}
-body{
-    margin: 0;
-    width: 100vw;
-    overflow-x: hidden;
-    background-image:linear-gradient(to top, rgb(23, 170, 60), rgb(4, 35, 43));
-    background-size: cover;
-    color: white;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-.spc{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-nav{
-    border-bottom: 2px solid white;
-    width: 90vw;
-    font-size: 1.2rem;
-    ul,li{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        padding: 0;
-        font-weight: 600;
-        margin-bottom: 3px;
-        font-family: 'open sans';
-    }
-    a{
-        text-decoration: none;
-        color: white;
-    }
-    a:hover{
-        color: rgb(233, 227, 227);
-    }
-}
 main{
-    animation: fadeIn 1.5s ease-in-out;
+    animation: fadeIn2 1.5s ease-in-out;
 }
 .cadastro{
     position: relative;
@@ -116,6 +75,7 @@ main{
     background-image: linear-gradient(to right, rgb(4, 35, 43), rgb(23, 170, 60));
 }
 .login{
+    z-index: 1;
     padding: 10px;
     position: relative;
     display: flex;
@@ -124,11 +84,11 @@ main{
     width: 60vw;
     left: 50%;
     right: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%);
     justify-content: space-around;
     align-items: center;
     background-color: rgb(16, 131, 45);
-    top: 40vh;
+    top: 0;
     border-radius: 20px;
     margin-bottom: 5vh;
     h3{
@@ -165,18 +125,12 @@ main{
         transform: scale(1.1);
     }
 }
-@media (min-width: 768px) and (max-width: 1439px){
-    body{
-        background-image:linear-gradient(to right, rgb(23, 170, 60), rgb(4, 35, 43));
-    }
-    nav{
-        width: 90vw;
-        font-size: 1.4rem;
-    }
+@media (min-width: 768px){
     .cadastro{
         width: 50vw;
-        margin-top: 30vh;
         margin-left: 4vw;
+        margin-top: 20vh;
+        transform: translate(0%, 0%);
         h3{
             font-size: 2.5rem;
         }
@@ -186,6 +140,7 @@ main{
     .circle{
         width: 480px;
         height: 480px;
+        transform: translate(-50%, -50%);
         }
     }
     .login{
@@ -193,19 +148,19 @@ main{
         height: 40vh;
         width: 25vw;
         left: 80vw;
-        top: 50vh;
+        top: 30vh;
+    }
+    footer{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        z-index: 1;
     }
 }
 @media (min-width: 1440px){
-    body{
-        background-image:linear-gradient(to right, rgb(23, 170, 60), rgb(4, 35, 43));
-    }
-    nav{
-        font-size: 1.6rem;
-    }
     .cadastro{
         width: 50vw;
-        margin-top: 25vh;
         margin-left: 4vw;
         h2{
             font-size: 4rem;
@@ -217,8 +172,8 @@ main{
             font-size: 1.5rem;
         }
     .circle{
-        width: 600px;
-        height: 600px;
+        width: 450px;
+        height: 450px;
         }
     }
     .login{
@@ -226,7 +181,6 @@ main{
         height: 40vh;
         width: 25vw;
         left: 80vw;
-        top: 50vh;
 
         input::placeholder{
             font-size: 1.6rem;

@@ -2,6 +2,10 @@
     font-family: 'roxborough';
     src: url('fonts/Roxborough\ CF.ttf') format('truetype');
 }
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
 html{
     scroll-behavior:smooth;
     height: 100%;
@@ -32,6 +36,7 @@ header{
     text-align: center;
   }
   .hero-content {
+    position: relative;
     padding: 5px;
     z-index: 2;
     display: flex;
@@ -49,10 +54,13 @@ header{
         margin-bottom: 1.5rem;
     }
 }
-
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
+.cont-btn{
+    display: flex;
+    width: 50vw;
+    height: 15vh;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 }
   .cta-btn {
     padding: 0.75rem 1.5rem;
@@ -97,14 +105,12 @@ nav{
     }
 }
 .container{
-    margin-bottom: 5vh;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%);
     height: auto;
     width: 80vw;
     position: relative;
-    left: 50%;
-    right: 50%;
-    top: 50vh;
-    transform: translate(-50%, -50%);
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -116,7 +122,7 @@ nav{
     background-color: rgb(136, 115, 115);
     border-radius: 20px;
     height: 400px;
-    width: 300px;
+    width: 80%;
     overflow: hidden;
     cursor: pointer;
     position: relative;
@@ -146,11 +152,12 @@ nav{
         left: 0;
         background-color: rgba(0, 0, 0, 0.5);
 }
-footer {
+.mfooter{
         text-align: center;
         margin-top: 20px;
-        font-size: 0.9em;
-        color: #777;
+        font-size: 1.5rem;
+        color: white;
+        background-color: #77777775
     }
 
 .popup {
@@ -191,6 +198,7 @@ footer {
         padding: 10px;
         background-color: #f57c00;
         color: white;
+        border-radius: 8px;
     }
     article {
         background: white;
@@ -212,6 +220,9 @@ footer {
   }
   
   .popup_close {
+    border-style: none;
+    width: 40px;
+    height: 40px;
     border-radius: 50px;
     position: fixed;
     top: 5px;
@@ -247,10 +258,10 @@ footer {
         }
     }
   }
-  @media (min-width: 1260px){
+  @media (min-width: 1440px){
     nav{
-    font-size: 1.6rem;
-}
+        font-size: 1.6rem;
+    }
     .card_title{
         font-size: 2rem;
     }
