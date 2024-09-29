@@ -1,50 +1,127 @@
 const cardContent = {
-    "Práticas Saudáveis para um Desenvolvimento Completo": `Em um mundo cada vez mais acelerado, cuidar da saúde física 
-    e mental se torna fundamental para alcançarmos um desenvolvimento pleno. As práticas saudáveis vão além de uma simples 
-    rotina de exercícios e alimentação equilibrada, abrangendo também o bem-estar emocional, intelectual e social. Neste artigo, 
-    exploraremos algumas práticas que podem transformar sua vida e impulsionar seu crescimento pessoal e profissional.
-    <h3>Alimentação Equilibrada e Consciente</h3>
-    <ul>
-        <li>Priorize alimentos nutritivos:Frutas, legumes, grãos integrais e proteínas magras são essenciais para fornecer energia e nutrientes ao corpo.</li>
-        <li>Hidrate-se adequadamente: A água é fundamental para o bom funcionamento do organismo.</li>
-        <li>Reduza o consumo de alimentos processados e açucarados: Esses alimentos podem prejudicar a saúde e o bem-estar a longo prazo.</li>
-        <li>Pratique a alimentação consciente: Preste atenção aos sinais de fome e saciedade, saboreie cada mordida e evite distrações durante as refeições.</li>
-    </ul>
-    <h3>Atividade Física Regular</h3>
-    <ul>
-        <li>Encontre atividades que você gosta: Seja caminhar, dançar, praticar algum esporte ou fazer exercícios em casa, o importante é se movimentar.</li>
-        <li>Estabeleça uma rotina: Reserve um tempo específico para a prática de atividades físicas e faça dela um hábito.</li>
-        <li>Varie os exercícios: Isso ajuda a prevenir o tédio e a trabalhar diferentes grupos musculares.</li>
-    </ul>
-    <h3>Sono de Qualidade</h3>
-    <ul>
-        <li>Estabeleça um horário regular para dormir e acordar: Mesmo nos finais de semana, tente manter um ritmo constante.</li>
-        <li>Crie um ambiente propício ao sono: Um quarto escuro, silencioso e com temperatura agradável favorece o descanso.</li>
-        <li>Evite o uso de eletrônicos antes de dormir: A luz emitida por telas pode interferir na produção de melatonina, hormônio do sono.</li>
-    </ul>
-    <h3>Gerenciamento do Estresse</h3>
-    <ul>
-        <li>Pratique técnicas de relaxamento: Meditação, yoga e respiração profunda são excelentes ferramentas para reduzir o estresse.</li>
-        <li>Estabeleça limites: Aprenda a dizer não e a delegar tarefas quando necessário.</li>
-        <li>Cuide dos seus relacionamentos: Conecte-se com pessoas positivas e que te fazem bem.</li>
-    </ul>
-    <h3>Desenvolvimento Pessoal</h3>
-    <ul>
-        <li>Leia livros e artigos: A leitura expande seus conhecimentos e estimula a criatividade.</li>
-        <li>Faça cursos e workshops: Invista em sua formação e aprenda novas habilidades.</li>
-        <li>Estabeleça metas: Ter objetivos claros e definidos te motiva a agir e a buscar o crescimento.</li>
-    </ul>
-    <h3>Conexão com a Natureza</h3>
-    <ul>
-        <li>Passeie ao ar livre: O contato com a natureza reduz o estresse e aumenta a sensação de bem-estar.</li>
-        <li>Cultive um jardim: Cuidar de plantas pode ser uma atividade relaxante e terapêutica.</li>
-    </ul>
-    <h3>Conclusão</h3>
-    <p>As práticas saudáveis são um investimento em si mesmo. Ao cuidar do seu corpo e da sua mente, você aumenta sua qualidade de vida, melhora seu desempenho em todas as áreas e vive uma vida mais feliz e realizada. Lembre-se que a mudança de hábitos leva tempo e exige disciplina, mas os benefícios são inúmeros. Comece hoje mesmo a implementar essas práticas em sua rotina e colha os frutos de um desenvolvimento mais completo e saudável.</p>
-`,
+    "Práticas Saudáveis para um Desenvolvimento Completo": `<body>
 
+<header>
+    <h1>Práticas Saudáveis para uma Vida Melhor</h1>
+</header>
 
-    "Título 2": "Muito conteúdo zika.",
-    "Título 3": "artigo incrível cheio de coisas maravilhosas e vislumbrantes, uau, que mágico",
-    "Título 4": "As vezes eu me pergunto se a melhor ideia é realmente melhor.",
+<article>
+    <h2>1. Alimentação Equilibrada</h2>
+    <p>Uma dieta balanceada, rica em frutas, vegetais, grãos integrais e proteínas magras, é fundamental para manter a saúde. Evitar alimentos ultraprocessados e excessos de açúcar é essencial.</p>
+
+    <h2>2. Exercícios Físicos Regulares</h2>
+    <p>Praticar atividades físicas pelo menos 150 minutos por semana ajuda a manter o corpo em forma, melhora a saúde cardiovascular e aumenta a disposição.</p>
+
+    <h2>3. Hidratação Adequada</h2>
+    <p>Beber água regularmente é crucial para o funcionamento do corpo. A hidratação adequada melhora a digestão, a circulação e a saúde da pele.</p>
+
+    <h2>4. Sono de Qualidade</h2>
+    <p>Uma boa noite de sono é essencial para a recuperação do corpo e da mente. Tente dormir de 7 a 9 horas por noite e mantenha uma rotina de sono regular.</p>
+
+    <h2>5. Gestão do Estresse</h2>
+    <p>Praticar técnicas de relaxamento, como meditação e yoga, pode ajudar a reduzir o estresse. Manter um equilíbrio emocional é vital para a saúde mental.</p>
+
+    <h2>6. Consultas Regulares com Profissionais de Saúde</h2>
+    <p>Realizar check-ups periódicos é importante para a detecção precoce de problemas de saúde. Manter um acompanhamento médico ajuda a prevenir doenças.</p>
+</article>
+
+<footer>
+    <p>&copy; Grupo 12, 2024 - Trabalho de Programação Web</p>
+</footer>
+
+</body>`,
+    "Principais Tecnologias na Área da Saúde": `
+    <body>
+    <header>
+        <h1>Principais Tecnologias na Área da Saúde</h1>
+    </header>
+
+    <article>
+        <h2>1. Telemedicina</h2>
+        <p>A telemedicina permite que médicos e pacientes se conectem remotamente, facilitando o acesso à saúde. Com o uso de videochamadas e aplicativos, é possível realizar consultas e monitoramentos à distância.</p>
+
+        <h2>2. Inteligência Artificial (IA)</h2>
+        <p>A IA tem revolucionado diagnósticos e tratamentos, analisando grandes volumes de dados médicos. Sistemas de IA podem auxiliar na detecção precoce de doenças e na personalização de terapias.</p>
+
+        <h2>3. Wearables</h2>
+        <p>Dispositivos vestíveis, como relógios inteligentes e monitores de fitness, permitem o acompanhamento da saúde em tempo real. Eles podem monitorar sinais vitais, atividade física e até mesmo a qualidade do sono.</p>
+
+        <h2>4. Registros Eletrônicos de Saúde (RES)</h2>
+        <p>Os RES digitalizam o histórico médico dos pacientes, tornando-o facilmente acessível para profissionais de saúde. Isso melhora a eficiência no atendimento e a segurança das informações.</p>
+
+        <h2>5. Impressão 3D</h2>
+        <p>A impressão 3D tem sido utilizada para criar próteses personalizadas e até mesmo modelos anatômicos para planejamento cirúrgico. Essa tecnologia permite a personalização e a redução de custos.</p>
+
+        <h2>6. Blockchain</h2>
+        <p>O blockchain pode ser utilizado para proteger dados médicos e garantir a privacidade dos pacientes. Com essa tecnologia, é possível criar registros imutáveis e seguros de informações de saúde.</p>
+    </article>
+
+    <footer>
+        <p>&copy; Grupo 12, 2024 - Trabalho de Programação Web</p>
+    </footer>
+</body>`,
+    "Dicas de Alimentação Saudável": `
+<body>
+
+<header>
+    <h1>Dicas de Alimentação Saudável</h1>
+</header>
+
+<article>
+    <h2>1. Planeje suas Refeições</h2>
+    <p>Elabore um cardápio semanal para evitar escolhas alimentares impulsivas. Planejar suas refeições ajuda a garantir uma dieta equilibrada.</p>
+
+    <h2>2. Inclua Mais Frutas e Vegetais</h2>
+    <p>Busque consumir ao menos cinco porções de frutas e vegetais por dia. Eles são ricos em nutrientes e fibras, essenciais para a saúde.</p>
+
+    <h2>3. Opte por Grãos Integrais</h2>
+    <p>Substitua pães e arroz brancos por suas versões integrais. Os grãos integrais são mais nutritivos e ajudam na digestão.</p>
+
+    <h2>4. Reduza o Consumo de Açúcar e Sal</h2>
+    <p>Limite a ingestão de açúcares adicionados e sal. Leia os rótulos dos alimentos e opte por versões com menos sódio e açúcar.</p>
+
+    <h2>5. Mantenha-se Hidratado</h2>
+    <p>Beber água regularmente é fundamental. Tente substituir bebidas açucaradas por água ou chás sem açúcar.</p>
+
+    <h2>6. Preste Atenção às Porções</h2>
+    <p>Controle o tamanho das porções para evitar excessos. Use pratos menores e preste atenção aos sinais de saciedade do seu corpo.</p>
+
+    <h2>7. Cozinhe em Casa</h2>
+    <p>Preparar suas próprias refeições permite um maior controle sobre os ingredientes. Experimente novas receitas saudáveis e descubra sabores.</p>
+</article>
+
+<footer>
+    <p>&copy; Grupo 12, 2024 - Trabalho de Programação Web</p>
+</footer>
+</body>`,
+    "A Importância da Saúde Mental": `
+<body>
+
+<header>
+    <h1>A Importância da Saúde Mental</h1>
+</header>
+
+<article>
+    <h2>1. Um Tema Ignorado</h2>
+    <p>Apesar de sua importância, a saúde mental ainda é um assunto negligenciado por muitas pessoas. Muitas vezes, o estigma associado a problemas mentais impede que indivíduos busquem ajuda e reconheçam a necessidade de cuidar de sua saúde mental.</p>
+
+    <h2>2. A Relevância da Saúde Mental</h2>
+    <p>A saúde mental afeta diretamente a forma como pensamos, sentimos e agimos. Ela influencia nossa capacidade de lidar com o estresse, relacionar-se com os outros e tomar decisões. Cuidar da saúde mental é tão importante quanto cuidar da saúde física.</p>
+
+    <h2>3. Reconhecendo Sinais de Alerta</h2>
+    <p>É essencial estar atento a sinais de problemas mentais, como mudanças de humor, isolamento social, fadiga excessiva ou dificuldades de concentração. Reconhecer esses sinais precocemente pode fazer toda a diferença.</p>
+
+    <h2>4. Estratégias para Cuidar da Saúde Mental</h2>
+    <p>Praticar atividades físicas, manter uma alimentação equilibrada e dedicar tempo para hobbies são algumas formas de cuidar da saúde mental. Técnicas de relaxamento, como meditação e respiração consciente, também são extremamente benéficas.</p>
+
+    <h2>5. A Importância do Apoio Social</h2>
+    <p>Ter uma rede de apoio é fundamental. Conversar com amigos e familiares sobre sentimentos e preocupações pode aliviar a carga emocional e proporcionar um espaço seguro para expressar-se.</p>
+
+    <h2>6. Buscar Ajuda Profissional</h2>
+    <p>Se você está enfrentando dificuldades, não hesite em procurar um profissional de saúde mental. Terapia e aconselhamento podem ser cruciais para encontrar estratégias de enfrentamento e apoio emocional.</p>
+</article>
+
+<footer>
+    <p>&copy; Grupo 12, 2024 - Trabalho de Programação Web</p>
+</footer>`,
   };
