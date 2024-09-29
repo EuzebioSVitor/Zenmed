@@ -1,0 +1,268 @@
+@font-face {
+    font-family: 'roxborough';
+    src: url('fonts/Roxborough\ CF.ttf') format('truetype');
+}
+html{
+    scroll-behavior:smooth;
+    height: 100%;
+}
+body{
+    margin: 0px;
+    width: 100vw;
+    overflow-x: hidden;
+    background-image:linear-gradient(to top, rgb(23, 170, 60), rgb(4, 35, 43));
+    background-size: cover;
+    color: white;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+ .hero-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    text-align: center;
+  }
+  .hero-content {
+    padding: 5px;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+    animation: fadeIn 1.5s ease-in-out;
+    h1{
+        font-size: 3rem;
+        margin-bottom: 0.5rem;
+    }
+    p{
+        font-size: 1.25rem;
+        margin-bottom: 1.5rem;
+    }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+  .cta-btn {
+    padding: 0.75rem 1.5rem;
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.25rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .cta-btn:hover {
+    transform: scale(1.1);
+    background-color: #f57c00;
+    cursor: pointer;
+  }
+  .spc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav{
+    border-bottom: 2px solid white;
+    width: 100vw;
+    font-size: 1.2rem;
+    ul,li{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 0;
+        font-weight: 600;
+        margin-bottom: 3px;
+        font-family: 'open sans';
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    a:hover{
+        color: rgb(233, 227, 227);
+    }
+}
+.container{
+    margin-bottom: 5vh;
+    height: 80vh;
+    width: 80vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    top: 50vh;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items:center;
+    row-gap: 5vh;
+}
+.card{
+    border: 5px solid white;
+    background-color: rgb(136, 115, 115);
+    border-radius: 20px;
+    height: 50%;
+    width: 80vw;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease;
+}
+.card:hover{
+        transform: scale(1.05);
+}
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card_content{
+    padding: 10px;
+}
+.card_title{
+        text-align: center;
+        color: whitesmoke;
+        font-size: 1.5rem;
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        margin: 0;
+        right: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+    overflow: hidden;
+  }
+  
+  .popup_content {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-image:linear-gradient(to bottom, rgb(23, 170, 60), rgb(4, 35, 43));
+    color: white;
+    width: 80vw;
+    height: 80vh;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    h3{
+        text-align: center;
+        font-weight: 600;
+    }
+    h2{
+        text-align: center;
+        font-size: 2.3rem;
+    };
+    p{
+        text-align: center;
+        font-family:'Open Sans'
+    }
+  }
+  
+  .popup_close {
+    border-radius: 50px;
+    position: fixed;
+    top: 5px;
+    right: 5px;
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  @media (min-width: 768px){
+    body{
+        background-image:linear-gradient(to right, rgb(23, 170, 60), rgb(4, 35, 43));
+    }
+    nav{
+        width: 90vw;
+    }
+    .card{
+        width: 40%;
+    }
+    .popup_content{
+        font-size: 2rem;
+    }
+    .popup_close{
+        font-size: 2rem;
+    }
+    .hero-content{
+        h1{
+            font-size: 3.5rem;
+        }
+        p{
+            font-size: 2rem;
+        }
+    }
+  }
+  @media (min-width: 1260px){
+    nav{
+        font-size: 1.5rem;
+    }
+    .card_title{
+        font-size: 2rem;
+    }
+    .hero-content{
+        h1{
+            font-size: 3.6rem;
+        }
+        p{
+            font-size: 2.6rem;
+        }
+    }
+    .cta-btn{
+        font-size: 2rem;
+    }
+  }
+  @media (min-width: 1680px){
+    nav{
+        font-size: 2.5rem;
+    }
+    .card_title{
+        font-size: 3rem;
+    }
+    .hero-content{
+        h1{
+            font-size: 5rem;
+        }
+        p{
+            font-size: 4.7rem;
+        }
+    }
+    .cta-btn{
+        font-size: 4.7rem;
+    }
+  }
+  @media(min-width: 1900px){
+    .popup_content{
+        font-size: 3rem;
+    }
+    .popup_close{
+        font-size: 3rem;
+    }
+  }
